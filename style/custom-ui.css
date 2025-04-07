@@ -1,0 +1,36 @@
+/* === Custom select dropdown icon styles === */
+.custom-select select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 40px;
+
+  background-image: url("data:image/svg+xml;utf8,<svg fill='none' stroke='%23555' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M19 9l-7 7-7-7'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px 16px;
+}
+
+/* === Input counter style (removes number input arrows) === */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* For Firefox */
+}
+
+/* === Scrollbar style === */
+
+/* Width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background: rgba(53, 53, 53, 0.5);
+  border-radius: 12px;
+}
