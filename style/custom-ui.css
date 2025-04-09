@@ -8,7 +8,7 @@ select {
   background-image: url("data:image/svg+xml;utf8,<svg fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M6 9l6 6 6-6'/></svg>");
   background-repeat: no-repeat;
   background-position: right 4px center;
-  background-size: 16px 16px;
+  background-size: 20px 20px;
 }
 
 /* === Input counter style (removes number input arrows) === */
