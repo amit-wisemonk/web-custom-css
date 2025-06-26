@@ -29,7 +29,7 @@ width:4px;
 }
 /*thumb*/
 ::-webkit-scrollbar-thumb {
-background:rgb(8, 108, 217);
+background:rgba(226, 226, 226, 1);
 border-radius:4px;
 }
 
