@@ -22,4 +22,14 @@ input[type="number"] {
   -moz-appearance: textfield; /* For Firefox */
 }
 
+/* === Styling for scrollbar === */
+/*width*/
+::-webkit-scrollbar {
+width:4px;
+}
+/*thumb*/
+::-webkit-scrollbar-thumb {
+background:rgb(8, 108, 217);
+border-radius:4px;
+}
 
